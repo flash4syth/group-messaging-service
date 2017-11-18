@@ -2,7 +2,8 @@ defmodule GMS.SendText do
 
 
   @doc """
-  Send throttled messages 5 at a time to prevent carriers from blocking texts
+  Send throttled messages 5 at a time to prevent carriers from blocking texts.
+  The number list is a list of 11-digit strings like so ["15551234567","..."]
   """
   def send_many(number_list, msg) do
     msg_length = String.length(msg)

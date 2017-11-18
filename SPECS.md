@@ -9,7 +9,7 @@ Groups are comprised of multiple users which will receive broadcast text message
 Admins are user numbers which are allowed to send text messages to group "gateway" numbers. They are promoted to admins and given access to zero or
 more groups by the super admin .
 
-Super Admin is the single admin user who has all administrative priveleges including promoting users to admin status.
+Super Admin is the single admin user who has all administrative privileges including promoting users to admin status.
 
 Gateway numbers are Plivo numbers that are purchased for a monthly subscription through Plivo's admin interface.  They are used to broadcast text messages
 sent from admin user numbers to all user numbers of a specific group.  Gateway numbers can only be assigned to one group at a time.
@@ -18,7 +18,7 @@ The Stop List is a collection of numbers belonging to users who have texted (cas
 can voluntarily initialize or restart a group subscription by texting (case insensitive) 'start' to the gateway number for that group.
 
 The Forbidden List is a collection of numbers belonging to users who have been flagged as unauthorized which effectively excludes them from any
-groups or admin status. They must be flagged by admins via the web interface. 
+groups or admin status. They must be flagged by admins via the web interface.
 
 ## Admin phone number functionality
 
